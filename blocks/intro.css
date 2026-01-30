@@ -1,0 +1,26 @@
+.intro__title {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  letter-spacing: 0%;
+  max-width: 830px;
+  color: #ffffff;
+  padding-left: 148px;
+}
+
+.intro__quote {
+  color: #ffffff;
+}
+
+.intro__text_cite {
+  color: #ffffff;
+}
+
+.intro__text_author {
+  color: #ffffff;
+}
+
+.intro__text {
+  color: #ffffff;
+}

@@ -1,19 +1,9 @@
-/* Estilos base para desktop (1280px) */
-.page {
-  width: 1280px;
-  height: 2008px;
-  background-color: #2a2c2f;
-}
-
-.header {
-  padding: 40px 80px;
-  display: flex;
-}
-
-.lead {
-  max-width: 1280px;
-  margin: 0 auto;
-}
+@import url("../vendor/normalize.css");
+@import url("../blocks/pages.css");
+@import url("../blocks/header.css");
+@import url("../blocks/lead.css");
+@import url("../blocks/intro.css");
+@import url("../blocks/footer.css");
 
 @media screen and (max-width: 1024px) {
   .header {
