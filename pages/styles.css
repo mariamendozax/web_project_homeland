@@ -4,24 +4,3 @@
 @import url("../blocks/lead.css");
 @import url("../blocks/intro.css");
 @import url("../blocks/footer.css");
-
-@media screen and (max-width: 1024px) {
-  .header {
-    padding: 30px 40px;
-  }
-
-  .lead {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 544px) {
-  .header {
-    padding: 20px 16px;
-    flex-direction: column;
-  }
-
-  .lead {
-    max-width: 320px;
-  }
-}

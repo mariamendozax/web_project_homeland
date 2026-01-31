@@ -1,26 +1,74 @@
-.intro__title {
-  font-family: Inter;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 58px;
-  letter-spacing: 0%;
+.intro {
+  padding: 0 48px;
+  box-sizing: border-box;
+}
+
+.intro__title,
+.intro__text_cite,
+.intro__text_author,
+.intro__text {
   max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
   color: #ffffff;
-  padding-left: 148px;
-}
-
-.intro__quote {
-  color: #ffffff;
-}
-
-.intro__text_cite {
-  color: #ffffff;
+  font-family: Inter;
 }
 
 .intro__text_author {
-  color: #ffffff;
+  text-align: right;
+  max-width: 732px;
+}
+
+.intro__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+}
+
+.intro__text_cite {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.41;
 }
 
 .intro__text {
-  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 0 24px;
+  }
+
+  .intro__title {
+    font-size: 36px;
+    line-height: 1.111;
+  }
+
+  .intro__text_cite,
+  .intro__text_author,
+  .intro__text {
+    max-width: 90vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    padding: 0 16px;
+  }
+
+  .intro__title {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+
+  .intro__text_cite,
+  .intro__text_author,
+  .intro__text {
+    max-width: 100vw;
+  }
 }

@@ -1,6 +1,7 @@
-/* Estilos base para desktop (1280px) */
 .pages {
-  width: 1270px;
-  height: 2008px;
   background-color: #2a2c2f;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
