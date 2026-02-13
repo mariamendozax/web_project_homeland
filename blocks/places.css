@@ -22,13 +22,11 @@
 .place__title {
   font-size: 72px;
   grid-area: title;
-  align-self: end;
   margin: 0;
 }
 
 .place__website {
   grid-area: website;
-  align-self: end;
   text-decoration: none;
   color: #ffffff;
 }
